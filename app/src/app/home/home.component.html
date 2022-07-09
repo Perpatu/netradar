@@ -1,0 +1,264 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md">
+      <div class="info ml-5">
+
+        <p class="text-25">
+          Z nami zaoszczędzisz do 50%
+        </p>
+
+        <p class="text-48">
+          Wybierz najlepszą ofertę <br>
+          na <b>internet i telewizję</b> <br>
+          w Twojej lokalizacji
+        </p>
+
+        <p class="text-25" style="margin-top: 2em;">
+          Sprawdz Miejscowość
+        </p>
+
+
+        <div class="frame">
+          <form class="form-inline">
+            <i class="fa fa-user icon"><img src="assets/svg/4781819_direction_gps_location_map_maps_icon.svg"
+                alt="Ellipse"></i>
+            <input class="form-control mr-sm-2" type="search" placeholder="Zacznij wpisawać nazwę miejscowości"
+              aria-label="Search">
+          </form>
+
+
+          <div class="btn group3" (click)=displayGroup3()>
+            <div class="group3-wifi-icon">
+              <img src="assets/svg/3994418_internet_network_signal_wifi_wireless_icon.svg" alt="wifi">
+            </div>
+
+            <p class="group3-text">
+              Internet
+            </p>
+
+            <div class="group3-elipse" *ngIf="isShowGroup3">
+              <img src="assets/svg/Ellipse 2.svg" alt="Ellipse">
+            </div>
+
+            <div class="group3-path2" *ngIf="isShowGroup3">
+              <img src="assets/svg/Path 2.svg" alt="path2">
+            </div>
+          </div>
+
+          <div class="btn group4" (click)=displayGroup4()>
+            <div class="group4-tv-icon">
+              <img src="assets/svg/8665830_tv_television_icon.svg" alt="path2">
+            </div>
+            <p class="group4-text">
+              Telewizja
+            </p>
+
+            <div class="group4-elipse" *ngIf="isShowGroup4">
+              <img src="assets/svg/Ellipse 2.svg" alt="Ellipse">
+            </div>
+
+            <div class="group4-path2" *ngIf="isShowGroup4">
+              <img src="assets/svg/Path 2.svg" alt="path2">
+            </div>
+          </div>
+
+          <button class="btn btn-primary">
+            Zobacz oferty
+          </button>
+        </div>
+      </div>
+
+    </div>
+    <div class="col-xl">
+      <div class="phone">
+        <div class="phone-elipse">
+          <img src="assets/svg/Ellipse 1.svg" alt="Ellipse">
+        </div>
+        <div class="phone-play">
+          <img src="assets/svg/211876_play_icon.svg" alt="Play">
+        </div>
+        <div class="phone-body">
+          <img src="assets/svg/n43n.png" alt="Phone">
+        </div>
+      </div>
+    </div>
+
+    <div class="w-100"></div>
+    <div class="col first-col">
+      <p class="how-it-works">
+        LOREM IPSUM IS SIMPLY DUMMY TEX
+      </p>
+      <p class="how-to-send-money">
+        <b>NetRadar to porównywarka ofert najlepszych <br> operatorów na rynku</b>
+      </p>
+      <div class="rectangle"></div>
+    </div>
+
+    <div class="w-100"></div>
+    <div class="col second-col">      
+
+    <div class="logo-container">
+      <div class="d-inline" *ngFor="let data of logo.Link; index as i">       
+        <a target="_blank" href="{{data}}"><img class="btn logo" src="{{logo.Logo[i]}}" alt="logo"></a>     
+      </div>
+    </div>
+    
+    
+    <div class="w-100"></div>
+    <div class="col third-col"> 
+      <p class="how-to-send-money">
+        <b>Zobacz jakie to proste</b>
+      </p>
+      <div class="rectangle"></div>
+    </div>
+
+    <div class="w-100"></div>
+    <div class="col fourth-col"> 
+      <div class="d-inline" style="margin-right: 2em;"> 
+        <img src="assets/svg/Group 5.svg" alt="Group 5">
+      </div>
+      <div class="d-inline" style="margin-right: 2em;"> 
+        <img src="assets/svg/Group 6.svg" alt="Group 6">
+      </div>
+      <div class="d-inline" style="margin-right: 2sem;"> 
+        <img src="assets/svg/Group 7.svg" alt="Group 7">
+      </div>
+    </div>
+
+    <div class="w-100"></div>
+    <div class="col fifth-col">
+      <p class="how-it-works">
+        LOREM IPSUM IS SIMPLY DUMMY TEX
+      </p>
+      <p class="how-to-send-money">
+        <b>Czym się charakteryzujemy na rynku?</b>
+      </p>
+      <div class="rectangle"></div>
+    </div>
+    
+    <div class="w-100"></div>
+    <div class="col sixth-col">
+      <div class="d-inline Phone-2">
+        <img src="assets/svg/Your design here.png" alt="Phone2">
+      </div>
+      
+      <div class="d-inline rectangle-copy-2">
+        <p class="access-duoribu-walt">
+          Lorem Ipsum is simply
+        </p>
+        <p class="begin-the-savage">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem been the industry’s standard dummy text ever since the 1500s
+        </p>
+      </div>
+    
+     
+      <div class="d-inline rectangle-copy-3">
+        <p class="access-duoribu-walt">
+          Lorem Ipsum is simply
+        </p>
+        <p class="begin-the-savage">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem been the industry’s standard dummy text ever since the 1500s
+        </p>
+      </div>
+  
+      <div class="d-inline rectangle-copy-4">
+        <p class="access-duoribu-walt">
+          Lorem Ipsum is simply
+        </p>
+        <p class="begin-the-savage">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem been the industry’s standard dummy text ever since the 1500s
+        </p>
+      </div>     
+    </div>
+
+    <div class="w-100"></div>
+    <div class="col seventh-col" >
+      <div class="rectangle-8">
+        <div class="d-inline-block content" *ngFor="let data of user.Name; index as i">          
+          <img class="ellipse-6" src="assets/svg/Ellipse 6.svg" alt="">
+            <p class="how-to-send-money-ellipse-6">
+              <b>{{data}}</b>              
+            </p>
+            <div class="rectangle"></div>
+            <p class="lorem-ipsum-is-dummy">
+              {{user.Description[i]}}
+            </p>              
+        </div>
+      </div>
+    </div>
+    
+    <div class="w-100"></div>
+    <div class="col eighth-col">
+      <div class="logo-container">
+        <div class="d-inline" *ngFor="let data of logo.Link; index as i">       
+          <a target="_blank" href="{{data}}"><img class="btn logo" src="{{logo.Logo[i]}}" alt="logo"></a>     
+        </div>
+      </div>
+    </div>
+
+
+    <div class="w-100"></div>
+    <div class="col ninth-col">      
+      <div class="rectangle-5">
+        <div class="down-content">
+          <ul>
+            Lorem Ipsum
+            <li>Lorem Ipsum</li>
+            <li>Lorem Ipsum</li>
+            <li>Lorem Ipsum</li>
+            <li>Lorem Ipsum</li>
+          </ul>
+          <ul>
+            Lorem Ipsum
+            <li>Lorem Ipsum</li>
+            <li>Lorem Ipsum</li>
+            <li>Lorem Ipsum</li>
+            <li>Lorem Ipsum</li>
+          </ul>
+          <ul>
+            Lorem Ipsum
+            <li>Lorem Ipsum</li>
+            <li>Lorem Ipsum</li>
+            <li>Lorem Ipsum</li>
+            <li>Lorem Ipsum</li>
+          </ul>
+        </div>
+
+        <div class="down-right-content">
+          <p class="product">
+            Nasze social-media
+          </p> 
+          <div>
+            <a class="oval" target="_blank" href="#"><img src="assets/svg/Oval.svg" alt="oval"></a>
+            <a class="oval" target="_blank" href="#"><img src="assets/svg/Oval.svg" alt="oval"></a>
+            <a class="oval" target="_blank" href="#"><img src="assets/svg/Oval.svg" alt="oval"></a>
+          </div>
+        </div>        
+        <div class="line-2"></div>
+        <div class="footer">
+          <p class="footer-right">Copyright © 2022 | All right reserved</p>
+          <a target="_blank" href="#" class="btn footer-left">Czym jest usługa Net Radar</a>
+          <a target="_blank" href="#" class="btn footer-left">Polityka prywatności</a>
+        </div>
+
+        <div class="rectangle-5-con">
+          
+          <p class="how-it-works-12">
+            LOREM IPSUM IS SIMPLY DUMMY TEX
+          </p>   
+          <p class="get-started-with-you">
+            Lorem Ipsum is simply dummy <br> text of the printing and <br> typesetting industry.
+          </p>        
+        </div>
+        <div class="google-apple">
+          <a target="_blank" href="https://play.google.com/store/games?hl=pl&gl=US"><img class="btn google" src="assets/svg/Group 9.svg" alt="google"></a> 
+          <a target="_blank" href="https://www.apple.com/pl/app-store/"><img class="btn apple" src="assets/svg/Group 10.svg" alt="google"></a>  
+        </div>            
+        <div class="background-down"></div> 
+        
+
+      </div>
+      
+    </div>
+  </div>
+</div>

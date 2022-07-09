@@ -1,0 +1,38 @@
+@media (max-width: 991px) {
+    .navbar-collapse {
+        background-color: #6b38ba;
+    }
+}
+
+nav {
+    border-bottom: 1px solid rgba(197, 195, 196, 0.8);
+}
+
+li {
+    margin-left: 2em;
+}
+
+
+.form-control {
+    box-shadow: none !important;
+}
+
+.btn.btn-primary {
+    
+    box-shadow: none !important;
+    background-color: transparent;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn.btn-primary:hover {
+    background-color: white;
+    color: #6234AB;
+    transform: scale(1.1);
+}
+
+.btn.btn-primary:focus {
+    background-color: white;
+    color: #6234AB;
+    transform: scale(1.1);
+}
